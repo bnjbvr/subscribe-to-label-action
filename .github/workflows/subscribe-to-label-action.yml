@@ -10,6 +10,6 @@ jobs:
   triage:
     runs-on: ubuntu-latest
     steps:
-    - uses: bytecodealliance/subscribe-to-label-action@master
+    - uses: bnjbvr/subscribe-to-label-action@master
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
